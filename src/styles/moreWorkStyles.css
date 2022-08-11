@@ -1,0 +1,21 @@
+.cardWork{
+    margin: 5px;
+    cursor: pointer;
+}
+
+.cardWork:hover .cardWorkDescription{
+    display: flex;
+}
+
+.cardWorkDescription{
+    background: var(--white);
+    margin-top: -40px;
+    width: 100%;
+    display: none;
+    justify-content: space-around;
+}
+
+.cardWorkDescription img{
+    width: 20px;
+    height: 20px;
+}

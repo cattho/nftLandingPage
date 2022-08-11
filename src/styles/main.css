@@ -1,0 +1,21 @@
+@import '/src/styles/navbarStyles.css';
+@import '/src/styles/midCardStyles.css';
+@import '/src/styles/moreWorkStyles.css';
+@import '/src/styles/footerStyles.css';
+
+/* paleta colores */
+:root{
+    --white:#ffffff;
+    --pink:#ea4c89;
+    --gray:#6e6d7a;
+    --softGray:#f8f8f8;
+    --black:#000000;
+    --green:#4bb7bf;
+}
+
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Nunito', sans-serif;
+}

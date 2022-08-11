@@ -1,0 +1,155 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 120px;
+}
+
+.detailsPerson {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imgPerson img {
+    border-radius: 50%;
+}
+
+
+.imgDetailsPerson {
+    display: flex;
+}
+
+.imgDetailsPerson h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.imgDetailsPerson ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.imgDetailsPerson ul li a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.imgDetailsPerson ul li span {
+    color: var(--gray);
+}
+
+.imgDetailsPerson ul li:last-child {
+    color: var(--pink);
+}
+
+.card {
+    border: none;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.card img {
+    border-radius: 8px;
+}
+
+.text {
+    margin: 28px 0;
+    padding: 0 8rem;
+    font-size: 20px;
+}
+
+.boldWord {
+    font-weight: bold;
+}
+
+.pinkWord {
+    color: var(--pink);
+}
+
+.boldpink {
+    font-weight: bold;
+}
+
+.cadrProductContainer {
+    width: 100%;
+    padding: 0 250px;
+}
+
+.cardProductLast {
+    width: 800px;
+    border: 1px solid var(--gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.cardProductLast p {
+    width: 100%;
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    font-size: 14px;
+    border-bottom: 1px solid var(--gray);
+}
+
+.miniCardContainer {
+    width: 100%;
+}
+
+.descriptionMiniCard {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+
+.imgMidCard {
+    display: flex;
+}
+
+.imgMidCard img {
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.imgMidCard span {
+    color: var(--green);
+    font-weight: bold;
+}
+
+.buttonMiniCard {
+    background: var(--green);
+    color: var(--white);
+    border: none;
+    padding: 15px;
+    border-radius: 16px;
+}
+
+.line{
+    width: 100%;
+    border: 1px solid var(--softGray);
+   margin-top: 50px;
+}
+
+.puasePage {
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+}
+
+.puasePage img {
+    vertical-align: top;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+
+.puasePage span {
+    width: 80%;
+    border: 1px solid var(--gray);
+}
